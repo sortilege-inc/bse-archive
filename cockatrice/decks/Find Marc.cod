@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Find Marc</deckname>
+    <comments>Mono green</comments>
+    <zone name="main">
+        <card number="5" price="0" name="Forest 1"/>
+        <card number="5" price="0" name="Forest 2"/>
+        <card number="5" price="0" name="Forest 3"/>
+        <card number="5" price="0" name="Forest 4"/>
+        <card number="4" price="0" name="Marc Andreessen"/>
+        <card number="4" price="0" name="Adjunct Professor"/>
+        <card number="3" price="0" name="Green Wizard"/>
+        <card number="4" price="0" name="Milo of Croton"/>
+        <card number="2" price="0" name="Antifragile Hydra"/>
+        <card number="2" price="0" name="Carol Dweck"/>
+        <card number="2" price="0" name="Consultant"/>
+        <card number="2" price="0" name="John Michael Greer"/>
+        <card number="2" price="0" name="PHB"/>
+        <card number="2" price="0" name="Babytalk"/>
+        <card number="2" price="0" name="Double Freytag"/>
+        <card number="2" price="0" name="Flow"/>
+        <card number="2" price="0" name="IPO"/>
+        <card number="1" price="0" name="Series B Funding"/>
+        <card number="2" price="0" name="Steelman"/>
+        <card number="2" price="0" name="Strike Debt"/>
+        <card number="2" price="0" name="Ternary Thinking"/>
+    </zone>
+</cockatrice_deck>

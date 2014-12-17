@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Facing the Singularity</deckname>
+    <comments>Red/artifact splashing white, blue</comments>
+    <zone name="main">
+        <card number="4" price="0" name="Black Rock City"/>
+        <card number="1" price="0" name="Brasília"/>
+        <card number="2" price="0" name="Blueseed"/>
+        <card number="1" price="0" name="Island 1 "/>
+        <card number="1" price="0" name="Island 2"/>
+        <card number="1" price="0" name="Island 3"/>
+        <card number="2" price="0" name="Northwest Passage"/>
+        <card number="2" price="0" name="Plaza"/>
+        <card number="4" price="0" name="Panopticon"/>
+        <card number="4" price="0" name="TAZ"/>
+        <card number="4" price="0" name="Citation Network"/>
+        <card number="3" price="0" name="Drone"/>
+        <card number="4" price="0" name="Roko’s Basilisk"/>
+        <card number="2" price="0" name="Ray Kurzweil"/>
+        <card number="2" price="0" name="Slavoj Zizek"/>
+        <card number="2" price="0" name="Sergey Alexeyevich Lebedev"/>
+        <card number="3" price="0" name="Pessimist"/>
+        <card number="4" price="0" name="Intermodal Freight Shipping Container"/>
+        <card number="3" price="0" name="Intelligence Explosion"/>
+        <card number="4" price="0" name="System I"/>
+        <card number="2" price="0" name="Hall’s Law"/>
+        <card number="3" price="0" name="Clock of the Long Now"/>
+        <card number="2" price="0" name="Rent-Controlled Apartment"/>
+    </zone>
+</cockatrice_deck>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Synergize</deckname>
+    <comments>White/red/blue aggro</comments>
+    <zone name="main">
+        <card number="4" price="0" name="Blueseed"/>
+        <card number="1" price="0" name="Mountain 1"/>
+        <card number="1" price="0" name="Mountain 2"/>
+        <card number="1" price="0" name="Mountain 3"/>
+        <card number="1" price="0" name="Mountain 4"/>
+        <card number="4" price="0" name="Northwest Passage"/>
+        <card number="1" price="0" name="Plains 1"/>
+        <card number="1" price="0" name="Plains 2"/>
+        <card number="1" price="0" name="Plains 3"/>
+        <card number="1" price="0" name="Plains 4"/>
+        <card number="2" price="0" name="Plaza"/>
+        <card number="4" price="0" name="Star Axis"/>
+        <card number="2" price="0" name="Aaron Swartz"/>
+        <card number="4" price="0" name="Ashwin Parameswaran"/>
+        <card number="4" price="0" name="Burner"/>
+        <card number="4" price="0" name="Fox"/>
+        <card number="4" price="0" name="Gemeinschaft"/>
+        <card number="4" price="0" name="Loser"/>
+        <card number="2" price="0" name="Sociopath Messiah"/>
+        <card number="4" price="0" name="Trader"/>
+        <card number="3" price="0" name="System I"/>
+        <card number="3" price="0" name="Metis"/>
+        <card number="4" price="0" name="HIWTYL"/>
+    </zone>
+</cockatrice_deck>
