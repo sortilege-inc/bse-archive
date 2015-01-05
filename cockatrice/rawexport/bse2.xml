@@ -3,7 +3,7 @@
 <sets>
 <set>
 <name>BSE2</name>
-<longname>Be Slightly Evil 2: Electric Boogaloo</longname>
+<longname>Be Slightly Evil 2</longname>
 </set>
 </sets>
 <cards>
@@ -21,33 +21,23 @@ Exile this card.</text>
 </card>
 
 <card>
-<name>Athena</name>
-<set>BSE2</set>
-<manacost>2W</manacost>
-<type>Creature — Algorithm </type>
-<pt>3/3</pt>
-<tablerow>1</tablerow>
-<text>Other white creatures you control have hexproof and indestructible.</text>
-</card>
-
-<card>
 <name>BATNA</name>
 <set>BSE2</set>
 <manacost>W</manacost>
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>You may untap an attacking creature you control.</text>
+<text>You may remove an attacking creature you control from combat. If you do, untap that creature.</text>
 </card>
 
 <card>
-<name>Chandler’s Law</name>
+<name>Brandolini’s Law</name>
 <set>BSE2</set>
 <manacost>3W</manacost>
-<type>Sorcery</type>
+<type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Select a permanent you control. Search your library for copies of this card. You may put up to three copies in your hand.</text>
+<text>Counter target spell unless its controller pays 3.</text>
 </card>
 
 <card>
@@ -67,15 +57,15 @@ Exile this card.</text>
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Take control of target land.</text>
+<text>Take control of target land. Tap it. It does not untap on your next untap step.</text>
 </card>
 
 <card>
 <name>Edward Snowden</name>
 <set>BSE2</set>
-<manacost>4W</manacost>
+<manacost>1WW</manacost>
 <type>Creature — Whistleblower </type>
-<pt>4/4</pt>
+<pt>2/2</pt>
 <tablerow>1</tablerow>
 <text>Flying, hexproof</text>
 </card>
@@ -84,7 +74,7 @@ Exile this card.</text>
 <name>Eigenjesus</name>
 <set>BSE2</set>
 <manacost>6W</manacost>
-<type>Creature</type>
+<type>Creature — Model </type>
 <pt>7/7</pt>
 <tablerow>1</tablerow>
 <text>Flying
@@ -103,6 +93,46 @@ If enchanted land is untapped, creatures you control have vigilance.</text>
 </card>
 
 <card>
+<name>Hamilton</name>
+<set>BSE2</set>
+<manacost>2W</manacost>
+<type>Creature — Political Pundit </type>
+<pt>2/2</pt>
+<tablerow>1</tablerow>
+<text>Creatures you control have Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</text>
+</card>
+
+<card>
+<name>HBD</name>
+<set>BSE2</set>
+<manacost>3W</manacost>
+<type>Enchantment</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Creatures you control gain +1/+1 when blocking or being blocked by creatures they do not share a color with.</text>
+</card>
+
+<card>
+<name>Humanist</name>
+<set>BSE2</set>
+<manacost>3W</manacost>
+<type>Creature — Ideologue </type>
+<pt>3/3</pt>
+<tablerow>1</tablerow>
+<text>Trample</text>
+</card>
+
+<card>
+<name>Jihadi Middle Manager</name>
+<set>BSE2</set>
+<manacost>WW</manacost>
+<type>Creature — Terrorist Manager </type>
+<pt>2/2</pt>
+<tablerow>1</tablerow>
+<text>Creatures entering the battlefield with haste come into play tapped.</text>
+</card>
+
+<card>
 <name>Moral Therapeutic Deism</name>
 <set>BSE2</set>
 <manacost>2W</manacost>
@@ -113,35 +143,28 @@ If enchanted land is untapped, creatures you control have vigilance.</text>
 </card>
 
 <card>
-<name>My Believies</name>
-<set>BSE2</set>
-<manacost>1W</manacost>
-<type>Sorcery</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Return target permanent you control that entered the graveyard this turn to your hand.</text>
-</card>
-
-<card>
-<name>New Jim Crow</name>
-<set>BSE2</set>
-<manacost>5W</manacost>
-<type>Enchantment</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Choose a color. Permanents entering the battlefield of that color are exiled unless their controller pays 2.</text>
-</card>
-
-<card>
 <name>Overton Window</name>
 <set>BSE2</set>
 <manacost>1W</manacost>
 <type>Enchantment</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Only spells with converted mana cost less than or equal to the number of counters on Overton Window may be played.
+<text>Overton Window comes into play with 5 counters.
+Only spells with converted mana cost less than or equal to the number of counters on Overton Window may be played.
 1: Add a counter to Overton Window
 1: Remove a counter from Overton Window.</text>
+</card>
+
+<card>
+<name>OWWAAB</name>
+<set>BSE2</set>
+<manacost>3W</manacost>
+<type>Creature — Deity </type>
+<pt>1/1</pt>
+<tablerow>1</tablerow>
+<text>Indestructible
+Landfall—Put a +1/+1 counter on target creature.
+Creature spells you control cannot be countered.</text>
 </card>
 
 <card>
@@ -151,27 +174,18 @@ If enchanted land is untapped, creatures you control have vigilance.</text>
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Creatures you control that can attack this turn, must. Creatures defending opponents control who can block, must.</text>
+<text>Creatures defending opponents control that can block, must.</text>
 </card>
 
 <card>
-<name>Precautionary Principle</name>
+<name>Police</name>
 <set>BSE2</set>
-<manacost>2W</manacost>
-<type>Enchantment</type>
-<pt></pt>
+<manacost>5W</manacost>
+<type>Creature — Warrior </type>
+<pt>4/4</pt>
 <tablerow>1</tablerow>
-<text>At beginning of your end step, if all your permanents are untapped, you may play a card of converted mana cost equal to or less than the number of permanents you control from your hand without paying its mana cost.</text>
-</card>
-
-<card>
-<name>Premature Optimization</name>
-<set>BSE2</set>
-<manacost>WW</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Each player chooses a number of permanents he or she controls equal to the number of permanents controlled by the player who controls the fewest, then sacrifices the rest.</text>
+<text>Vigilance
+If Police deals damage to a player, exile target permanent that player controls.</text>
 </card>
 
 <card>
@@ -182,7 +196,7 @@ If enchanted land is untapped, creatures you control have vigilance.</text>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Enchant creature
-Enchanted creature can’t attack or block, and its activated abilities can’t be activated.</text>
+Enchanted creature can’t attack and its activated abilities can’t be activated.</text>
 </card>
 
 <card>
@@ -196,13 +210,14 @@ Enchanted creature can’t attack or block, and its activated abilities can’t 
 </card>
 
 <card>
-<name>Reparations</name>
+<name>Shanley Kane</name>
 <set>BSE2</set>
-<manacost>3W</manacost>
-<type>Sorcery</type>
-<pt></pt>
+<manacost>1WW</manacost>
+<type>Creature — Twitter Activist </type>
+<pt>3/2</pt>
 <tablerow>1</tablerow>
-<text>Put +1/+1 counters on a creature you control equal to the converted mana cost of a creature in your graveyard.</text>
+<text>Double strike
+Shanley Kane must block if able. If Shanley Kane would be dealt combat damage, deal that damage to a white creature you control or lose that much life.</text>
 </card>
 
 <card>
@@ -227,24 +242,13 @@ Equipped creature gains +0/+4. Damage that would be done to other creatures you 
 </card>
 
 <card>
-<name>Status Panic</name>
+<name>Sousveillance</name>
 <set>BSE2</set>
-<manacost>1WW</manacost>
+<manacost>1W</manacost>
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Creatures you control have +X/+0 until end of turn when attacking or blocking creatures of colors you do you control, where X is their power.</text>
-</card>
-
-<card>
-<name>The Terrorist’s Dilemma</name>
-<set>BSE2</set>
-<manacost>W</manacost>
-<type>Enchantment</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Enchant player
-Enchanted player puts cards from his or her library equal to the number of attacking creatures he or she controls into his or her graveyard.</text>
+<text>Creatures your opponents control cannot attack this turn.</text>
 </card>
 
 <card>
@@ -268,14 +272,13 @@ Enchanted player puts cards from his or her library equal to the number of attac
 </card>
 
 <card>
-<name>The Virtual God</name>
+<name>True Believer</name>
 <set>BSE2</set>
-<manacost>3W</manacost>
-<type>Creature — Deity </type>
-<pt>7/5</pt>
+<manacost>W</manacost>
+<type>Creature — Fallacy </type>
+<pt>3/3</pt>
 <tablerow>1</tablerow>
-<text>Flash
-When The Virtual God enters the battlefield, remove all creatures from all graveyards and shuffle them back into their owners libraries.</text>
+<text>At the beginning of your end step, sacrifice True Believer unless you pay 1W.</text>
 </card>
 
 <card>
@@ -300,7 +303,7 @@ Enchanted creature gains Clueless (This creature cannot attack or block.)</text>
 <text>
 +1: Draw two cards, then discard a card.
 -1: Return exiled card you control to your hand.
--7: Exile the top six cards from any library. You may play any number of cards exiled this way without paying their mana cost.
+-8: Exile the top six cards from any library. You may play any number of cards exiled this way without paying their mana cost.
 </text>
 </card>
 
@@ -322,7 +325,7 @@ Enchanted creature has shroud.</text>
 <type>Creature — Naval Historian </type>
 <pt>3/3</pt>
 <tablerow>1</tablerow>
-<text>First strike</text>
+<text>First strike, islandwalk</text>
 </card>
 
 <card>
@@ -333,6 +336,16 @@ Enchanted creature has shroud.</text>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>If you would draw the last card in your library, instead shuffle your graveyard into your library and draw a card.</text>
+</card>
+
+<card>
+<name>Athena</name>
+<set>BSE2</set>
+<manacost>2U</manacost>
+<type>Creature — Deity </type>
+<pt>3/3</pt>
+<tablerow>1</tablerow>
+<text>2UT: Other blue creatures you control have hexproof and indestructible.</text>
 </card>
 
 <card>
@@ -349,21 +362,11 @@ Enchanted land is a 2/2 Artifact Creature. It is still a land.</text>
 <card>
 <name>Backchannel</name>
 <set>BSE2</set>
-<manacost>U</manacost>
+<manacost>3U</manacost>
 <type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Exile a card you control. You may bring an exiled card onto the battlefield under your control.</text>
-</card>
-
-<card>
-<name>Brandolini’s Law</name>
-<set>BSE2</set>
-<manacost>3U</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Counter target spell unless its controller pays 3.</text>
+<text>Search your graveyard for a card and put it on the top of your library.</text>
 </card>
 
 <card>
@@ -374,38 +377,17 @@ Enchanted land is a 2/2 Artifact Creature. It is still a land.</text>
 <pt>3/2</pt>
 <tablerow>1</tablerow>
 <text>Shroud
-Scry 2 (To scry 2, look at the top two cards of your library. Put any number of them on the bottom of your library in any order and the rest on top in any order.)</text>
+When Bruce Schneier enters the battlefield, scry 2 (To scry 2, look at the top two cards of your library. Put any number of them on the bottom of your library in any order and the rest on top in any order.)</text>
 </card>
 
 <card>
-<name>Conlang</name>
+<name>Chandler’s Law</name>
 <set>BSE2</set>
-<manacost>U</manacost>
-<type>Enchantment</type>
+<manacost>5U</manacost>
+<type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Enchant creature
-Enchanted creature can only be blocked by creatures that share a color with it.</text>
-</card>
-
-<card>
-<name>Cyborgism</name>
-<set>BSE2</set>
-<manacost>3U</manacost>
-<type>Enchantment</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Creatures you control with equipment get +3/+3.</text>
-</card>
-
-<card>
-<name>Dead Cow</name>
-<set>BSE2</set>
-<manacost>1U</manacost>
-<type>Artifact Creature</type>
-<pt>2/3</pt>
-<tablerow>1</tablerow>
-<text>Flash, hexproof</text>
+<text>Select a permanent you control. Search your library for copies of this card. You may put up to three copies in your hand.</text>
 </card>
 
 <card>
@@ -415,30 +397,7 @@ Enchanted creature can only be blocked by creatures that share a color with it.<
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>All players reveal cards from their library until they reveal a nonland card, then exile a card from their hand, face down.
-Reveal exiled cards. The player with the exiled card of the highest converted mana cost may play the card revealed from the library without paying its mana cost. All other revealed cards go to their owner’s graveyards.</text>
-</card>
-
-<card>
-<name>Eris</name>
-<set>BSE2</set>
-<manacost>4U</manacost>
-<type>Creature — Deity </type>
-<pt>3/3</pt>
-<tablerow>1</tablerow>
-<text>Indestructible
-2T: Bid 5 for target permanent (All players put their hands aside and draw 5 cards. Each player bids the converted mana cost of a nonland card, and puts that card face down. All players reveal their bids, and place cards from their library into their graveyard equal to their bid. The player with the winning bid gains control of target permanent. In the event of a tie, no winner is declared. All players shuffle their cards back into their libraries.)</text>
-</card>
-
-<card>
-<name>Eventually Consistent</name>
-<set>BSE2</set>
-<manacost>3U</manacost>
-<type>Enchantment</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Enchant player
-Enchanted player does not draw a card during his or her draw step. At the beginning of enchanted player’s end step, he or she draws a card.</text>
+<text>Bid 1 for target land (All players put their hands aside and draw one card. Each player selects a nonland card from those drawn, and puts that card face down. All players then reveal their bids, and place cards from their library into their graveyard equal to the converted mana cost of his or her revealed card. The highest revealed converted mana cost wins the bid. In the event of a tie, no winner is declared. All players shuffle cards drawn for the bid back into their libraries.)</text>
 </card>
 
 <card>
@@ -455,48 +414,27 @@ Enchanted player does not draw a card during his or her draw step. At the beginn
 <name>Futurist</name>
 <set>BSE2</set>
 <manacost>U</manacost>
-<type>Creature</type>
+<type>Creature — Futurist Pundit </type>
 <pt>1/1</pt>
 <tablerow>1</tablerow>
-<text>UT: Scry 1 (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</text>
-</card>
-
-<card>
-<name>Glycon</name>
-<set>BSE2</set>
-<manacost>3U</manacost>
-<type>Creature — Deity </type>
-<pt>5/5</pt>
-<tablerow>1</tablerow>
-<text>If damage is dealt to Glycon, sacrifice it.</text>
-</card>
-
-<card>
-<name>Higgs Boson</name>
-<set>BSE2</set>
-<manacost>U</manacost>
-<type>Artifact</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Flash, hexproof
-T: Sacrifice Higgs Boson. Untap lands you control.</text>
+<text>1UT: Scry 1 (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</text>
 </card>
 
 <card>
 <name>Ideological Turing Test</name>
 <set>BSE2</set>
-<manacost>U</manacost>
+<manacost>UU</manacost>
 <type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Target creature becomes a copy of a different target creature until end of turn.</text>
+<text>Target permanent becomes a copy of another target permanent until end of turn.</text>
 </card>
 
 <card>
 <name>King Canute</name>
 <set>BSE2</set>
 <manacost>2U</manacost>
-<type>Creature</type>
+<type>Creature — Clueless Politician </type>
 <pt>0/5</pt>
 <tablerow>1</tablerow>
 <text>Flash, defender
@@ -511,18 +449,28 @@ When King Canute comes into play, exile target permanent. At the beginning of yo
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Scry 1 (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)
-You may draw one card. If you do so, sacrifice a permanent you control.</text>
+You may draw one card. If you do so, return a permanent you control to your library. Shuffle your library.</text>
 </card>
 
 <card>
 <name>Lisp Variant</name>
 <set>BSE2</set>
-<manacost>5U</manacost>
+<manacost>4U</manacost>
 <type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Cascade (When you cast this spell, exile the top card of your library until you exile a nonland card that costs less. You may cast that card without paying its mana cost. Put the exiled cards on the bottom of your library at random.)
 Draw three cards. Discard a card.</text>
+</card>
+
+<card>
+<name>Lucifer</name>
+<set>BSE2</set>
+<manacost>3UU</manacost>
+<type>Creature — Deity </type>
+<pt>3/3</pt>
+<tablerow>1</tablerow>
+<text>Flying, hexproof, islandwalk</text>
 </card>
 
 <card>
@@ -548,7 +496,7 @@ Draw three cards. Discard a card.</text>
 <card>
 <name>Nate Silver</name>
 <set>BSE2</set>
-<manacost>3UU</manacost>
+<manacost>3U</manacost>
 <type>Creature — Statistician </type>
 <pt>4/2</pt>
 <tablerow>1</tablerow>
@@ -576,16 +524,6 @@ Draw three cards. Discard a card.</text>
 </card>
 
 <card>
-<name>Raven</name>
-<set>BSE2</set>
-<manacost>1UU</manacost>
-<type>Creature — Trickster Deity </type>
-<pt>2/2</pt>
-<tablerow>1</tablerow>
-<text>T: Discard a card. Return a permanent you control to your hand. You may play a permanent from your hand without paying its mana cost.</text>
-</card>
-
-<card>
 <name>Satoshi Nakamoto</name>
 <set>BSE2</set>
 <manacost>2UU</manacost>
@@ -594,16 +532,6 @@ Draw three cards. Discard a card.</text>
 <tablerow>1</tablerow>
 <text>If Satoshi Nakamoto becomes the target of a spell or ability, exile it.
 At the beginning of your upkeep, if Satoshi Nakamoto is in exile, return it to the battlefield under your control. It has haste.</text>
-</card>
-
-<card>
-<name>Selective Enforcement</name>
-<set>BSE2</set>
-<manacost>4U</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Choose a color. Tap all creatures of that color. They do not untap on their owner’s next untap step.</text>
 </card>
 
 <card>
@@ -628,16 +556,6 @@ When Simulacra becomes the target of a spell or ability, sacrifice it.</text>
 </card>
 
 <card>
-<name>Sousveillance</name>
-<set>BSE2</set>
-<manacost>1U</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Creatures your opponents control cannot attack this turn.</text>
-</card>
-
-<card>
 <name>True Scotsman</name>
 <set>BSE2</set>
 <manacost>3U</manacost>
@@ -645,6 +563,16 @@ When Simulacra becomes the target of a spell or ability, sacrifice it.</text>
 <pt>3/1</pt>
 <tablerow>1</tablerow>
 <text>When True Scotsman comes into play, return target creature to its owner’s hand.</text>
+</card>
+
+<card>
+<name>Turk</name>
+<set>BSE2</set>
+<manacost>1U</manacost>
+<type>Creature — Precariat Worker </type>
+<pt>1/2</pt>
+<tablerow>1</tablerow>
+<text>T: Add 1 to your mana pool. Use this only to play artifacts.</text>
 </card>
 
 <card>
@@ -661,7 +589,7 @@ When Simulacra becomes the target of a spell or ability, sacrifice it.</text>
 <name>Amy Wong</name>
 <set>BSE2</set>
 <manacost>B</manacost>
-<type>Creature</type>
+<type>Creature — Clueless Heir </type>
 <pt>1/3</pt>
 <tablerow>1</tablerow>
 <text>When Amy Wong comes into play, all players sacrifice a creature.
@@ -693,21 +621,11 @@ Enchanted creature gets -2/-1</text>
 <name>Azathoth</name>
 <set>BSE2</set>
 <manacost>6B</manacost>
-<type>Creature — Elder God </type>
+<type>Creature — Deity </type>
 <pt>9/9</pt>
 <tablerow>1</tablerow>
 <text>As an additional cost, sacrifice three creatures.
 You may cast creature spells from your graveyard.</text>
-</card>
-
-<card>
-<name>Baphomet</name>
-<set>BSE2</set>
-<manacost>4BB</manacost>
-<type>Creature — Deity </type>
-<pt>0/8</pt>
-<tablerow>1</tablerow>
-<text>If a creature dealt damage to you this turn, Baphomet deals damage equal to that creature’s power to that creature’s controller.</text>
 </card>
 
 <card>
@@ -721,24 +639,45 @@ You may cast creature spells from your graveyard.</text>
 </card>
 
 <card>
-<name>Double Bind</name>
+<name>Conlang</name>
 <set>BSE2</set>
-<manacost>2B</manacost>
-<type>Enchantment — Aura </type>
+<manacost>B</manacost>
+<type>Enchantment</type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Enchant creature
-At the beginning of your upkeep, tap enchanted creature. Double Bind deals 1 damage to tapped creatures you control.</text>
+Enchanted creature has intimidate.</text>
+</card>
+
+<card>
+<name>Double Bind</name>
+<set>BSE2</set>
+<manacost>2BB</manacost>
+<type>Enchantment</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>At the beginning of your upkeep, tap target creature. Then deal 1 damage to all tapped creatures with the same controller as target creature.</text>
 </card>
 
 <card>
 <name>Eigenhitler</name>
 <set>BSE2</set>
 <manacost>4BB</manacost>
-<type>Creature</type>
-<pt>7/4</pt>
+<type>Creature — Model </type>
+<pt>5/4</pt>
 <tablerow>1</tablerow>
-<text>When Eigenhitler comes into play, target player discards all but two cards from his or her hand.</text>
+<text>When Eigenhitler comes into play, you may look at target player’s hand and discard half of the cards rounded up from it.</text>
+</card>
+
+<card>
+<name>Erik Prince</name>
+<set>BSE2</set>
+<manacost>3B</manacost>
+<type>Creature — CEO </type>
+<pt>3/3</pt>
+<tablerow>1</tablerow>
+<text>Reach
+Creatures you control have B: This creature gains vigilance until end of turn.</text>
 </card>
 
 <card>
@@ -762,26 +701,6 @@ At the beginning of your upkeep, tap enchanted creature. Double Bind deals 1 dam
 </card>
 
 <card>
-<name>Goat Rodeo</name>
-<set>BSE2</set>
-<manacost>2BB</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Creatures you control that die this turn deal damage equal to their power to target player.</text>
-</card>
-
-<card>
-<name>HBD</name>
-<set>BSE2</set>
-<manacost>3B</manacost>
-<type>Enchantment</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Creatures you control gain +1/+1 when blocking or being blocked by creatures they do not share a color with.</text>
-</card>
-
-<card>
 <name>Intention Debt</name>
 <set>BSE2</set>
 <manacost>1B</manacost>
@@ -795,7 +714,7 @@ At the beginning of your upkeep, tap enchanted creature. Double Bind deals 1 dam
 <name>Islamic State</name>
 <set>BSE2</set>
 <manacost>3BB</manacost>
-<type>Creature — Islamic Militia </type>
+<type>Creature — Paramilitary </type>
 <pt>5/4</pt>
 <tablerow>1</tablerow>
 <text>If Islamic State does damage to a player, that player discards a card. Islamic State gets -1/-1.</text>
@@ -808,17 +727,17 @@ At the beginning of your upkeep, tap enchanted creature. Double Bind deals 1 dam
 <type>Creature — Paramilitary </type>
 <pt>4/4</pt>
 <tablerow>1</tablerow>
-<text>2BT: Destroy target creature</text>
+<text>4BT: Destroy target creature or planeswalker.</text>
 </card>
 
 <card>
-<name>Medea</name>
+<name>My Believies</name>
 <set>BSE2</set>
-<manacost>4B</manacost>
-<type>Creature — Deity </type>
-<pt>3/5</pt>
+<manacost>1B</manacost>
+<type>Sorcery</type>
+<pt></pt>
 <tablerow>1</tablerow>
-<text>Sacrifice a creature you control. Creatures you control gain +1/+1 and lifelink until end of turn.</text>
+<text>As an additional cost, sacrifice a land you control. Choose a card from target player’s hand. That player discards that card.</text>
 </card>
 
 <card>
@@ -828,7 +747,17 @@ At the beginning of your upkeep, tap enchanted creature. Double Bind deals 1 dam
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Exile target creature that dealt damage to a creature this turn. Its owner takes 4 damage.</text>
+<text>Exile target creature that dealt damage to a creature you control this turn. Its owner takes 4 damage.</text>
+</card>
+
+<card>
+<name>New Jim Crow</name>
+<set>BSE2</set>
+<manacost>5B</manacost>
+<type>Enchantment</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Choose a color. Whenever a permanent of the chosen color enters the battlefield, exile it unless its controller pays 2.</text>
 </card>
 
 <card>
@@ -848,7 +777,7 @@ At the beginning of your upkeep, tap enchanted creature. Double Bind deals 1 dam
 <type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Bid 7 for Asteroid Mining emblem (All players put their hands aside and draw 7 cards. Each player bids the converted mana cost of a nonland card, and puts that card face down. All players reveal their bids, and place cards from their library into their graveyard equal to their bid. The player with the winning bid gains control of Asteroid Mining emblem. In the event of a tie, no winner is declared. All players shuffle their cards back into their libraries.)</text>
+<text>Bid 7 for Asteroid Mining emblem (All players put their hands aside and draw seven cards. Each player selects a nonland card from those drawn, and puts that card face down. All players then reveal their bids, and place cards from their library into their graveyard equal to the converted mana cost of his or her revealed card. The highest revealed converted mana cost wins the bid. In the event of a tie, no winner is declared. All players shuffle cards drawn for the bid back into their libraries.)</text>
 </card>
 
 <card>
@@ -868,7 +797,19 @@ At the beginning of your upkeep, tap enchanted creature. Double Bind deals 1 dam
 <type>Enchantment</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>On your upkeep, tap target creature.</text>
+<text>Enchant creature
+At the beginning of your upkeep, tap enchanted creature.
+When a creature enters the battlefield, State of Exception’s controller may move this to that creature.</text>
+</card>
+
+<card>
+<name>Texas Sharpshooter</name>
+<set>BSE2</set>
+<manacost>2BB</manacost>
+<type>Creature — Fallacy </type>
+<pt>1/3</pt>
+<tablerow>1</tablerow>
+<text>When Texas Sharpshooter attacks, it receives -3/-0. At the end of the combat phase Texas Sharpshooter deals 3 damage to target creature or player.</text>
 </card>
 
 <card>
@@ -899,7 +840,7 @@ Creatures you control of power 5 or more have T: Tap target permanent.</text>
 <type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Sacrifice a permanent you control. Distribute +1/+1 counters equal to its converted mana cost.</text>
+<text>Sacrifice a permanent you control. Distribute +1/+1 counters equal to its converted mana cost among creatures you control.</text>
 </card>
 
 <card>
@@ -930,16 +871,6 @@ Creatures you control of power 5 or more have T: Tap target permanent.</text>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Shuffle your hand into your library. Draw cards equal to the number of cards shuffled into your library this way plus one.</text>
-</card>
-
-<card>
-<name>Attentat</name>
-<set>BSE2</set>
-<manacost>3R</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Target creature you control gains deathtouch and fights target creature an opponent controls.</text>
 </card>
 
 <card>
@@ -984,20 +915,10 @@ Enchanted creature gets -X/-0 where X is its power.</text>
 </card>
 
 <card>
-<name>Crash-Only</name>
-<set>BSE2</set>
-<manacost>R</manacost>
-<type>Enchantment</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text></text>
-</card>
-
-<card>
 <name>Cthulhu</name>
 <set>BSE2</set>
-<manacost>4R</manacost>
-<type>Creature — Elder God </type>
+<manacost>3RR</manacost>
+<type>Creature — Deity </type>
 <pt>3/3</pt>
 <tablerow>1</tablerow>
 <text>Devour 3 (As this creature enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with three times that many +1/+1 counters on it.)
@@ -1008,7 +929,7 @@ Haste</text>
 <name>DevOps</name>
 <set>BSE2</set>
 <manacost>3R</manacost>
-<type>Creature — Department </type>
+<type>Creature — Professional </type>
 <pt>4/4</pt>
 <tablerow>1</tablerow>
 <text>Defender
@@ -1033,30 +954,8 @@ Attacking creatures you control get +0/+2.</text>
 <pt>2/2</pt>
 <tablerow>1</tablerow>
 <text>Flying
-T: Sacrifice Flying Spaghetti Monster. Destroy target creature that shares a type with Flying Spaghetti Monster.</text>
-</card>
-
-<card>
-<name>Hamilton</name>
-<set>BSE2</set>
-<manacost>2R</manacost>
-<type>Creature</type>
-<pt>2/2</pt>
-<tablerow>1</tablerow>
-<text>Devour 2 (As this creature enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with twice that many +1/+1 counters on it.)</text>
-</card>
-
-<card>
-<name>Immigrants</name>
-<set>BSE2</set>
-<manacost>1R</manacost>
-<type>Creature — Stream </type>
-<pt>4/4</pt>
-<tablerow>1</tablerow>
-<text>Haste
-Immigrants comes into play with 3 -1/-1 counters on it.
-At the beginning of your upkeep, remove a -1/-1 counter from Immigrants.
-Opponents may discard a card. If they do so, put Immigrants on the top of its controller’s library.</text>
+T: Sacrifice Flying Spaghetti Monster. Destroy target creature that shares a type with Flying Spaghetti Monster.
+2: Flying Spaghetti Monster gains creature type of your choice until end of turn.</text>
 </card>
 
 <card>
@@ -1070,16 +969,6 @@ Opponents may discard a card. If they do so, put Immigrants on the top of its co
 </card>
 
 <card>
-<name>Irruption</name>
-<set>BSE2</set>
-<manacost>RR</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Sacrifice a creature you control. Deal damage to target creature or player equal to the converted mana cost of sacrificed creature.</text>
-</card>
-
-<card>
 <name>Lavabit</name>
 <set>BSE2</set>
 <manacost>R</manacost>
@@ -1090,33 +979,13 @@ Opponents may discard a card. If they do so, put Immigrants on the top of its co
 </card>
 
 <card>
-<name>Mansplain</name>
-<set>BSE2</set>
-<manacost>1RR</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.</text>
-</card>
-
-<card>
-<name>Melek Taus</name>
-<set>BSE2</set>
-<manacost>7R</manacost>
-<type>Creature — Deity </type>
-<pt>7/7</pt>
-<tablerow>1</tablerow>
-<text>Flying, haste</text>
-</card>
-
-<card>
 <name>Methane Plume</name>
 <set>BSE2</set>
 <manacost>1RR</manacost>
 <type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Methane Plume deals 4 damage to target creature or player.
+<text>Methane Plume deals 4 damage to target creature or destroys target Island.
 You take 2 damage.</text>
 </card>
 
@@ -1124,10 +993,50 @@ You take 2 damage.</text>
 <name>Milton</name>
 <set>BSE2</set>
 <manacost>1R</manacost>
-<type>Creature — Employee </type>
+<type>Creature — Loser Employee </type>
 <pt>0/1</pt>
 <tablerow>1</tablerow>
 <text>Sacrifice Milton: Destroy target land.</text>
+</card>
+
+<card>
+<name>Monopath</name>
+<set>BSE2</set>
+<manacost>RR</manacost>
+<type>Creature — Academic </type>
+<pt>1/2</pt>
+<tablerow>1</tablerow>
+<text>Monopath attacks each turn if able. Monopath gains indestructible if attacking alone.</text>
+</card>
+
+<card>
+<name>Only Crash</name>
+<set>BSE2</set>
+<manacost>R</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Discard X cards. Only Crash deals X damage to target opponent.</text>
+</card>
+
+<card>
+<name>Patent Troll</name>
+<set>BSE2</set>
+<manacost>1R</manacost>
+<type>Creature — Troll </type>
+<pt>1/2</pt>
+<tablerow>1</tablerow>
+<text>When Patent Troll attacks, tap target noncreature permanent.</text>
+</card>
+
+<card>
+<name>Premature Optimization</name>
+<set>BSE2</set>
+<manacost>RR</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Each player chooses a number of permanents he or she controls equal to the number of permanents controlled by the player who controls the fewest, then sacrifices the rest.</text>
 </card>
 
 <card>
@@ -1148,18 +1057,40 @@ You take 2 damage.</text>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Deal 3 damage to target creature or player.
-Race Condition may only be played in response to an opponent’s spell.</text>
+You may cast Race Condition only if another spell is on the stack.</text>
+</card>
+
+<card>
+<name>Raven</name>
+<set>BSE2</set>
+<manacost>1RR</manacost>
+<type>Creature — Trickster </type>
+<pt>2/2</pt>
+<tablerow>1</tablerow>
+<text>T: Discard a card. Return a permanent you control to your hand. You may play a permanent from your hand without paying its mana cost.</text>
 </card>
 
 <card>
 <name>Red Queen</name>
 <set>BSE2</set>
 <manacost>2RR</manacost>
-<type>Creature</type>
+<type>Creature — Model </type>
 <pt>3/3</pt>
 <tablerow>1</tablerow>
 <text>Haste
-At the beginning of your upkeep, return a card from your hand to your library, or sacrifice Red Queen.</text>
+At the beginning of your upkeep, return a card from your hand to your library and shuffle your library, or sacrifice Red Queen.</text>
+</card>
+
+<card>
+<name>Refugees</name>
+<set>BSE2</set>
+<manacost>2R</manacost>
+<type>Creature — Stream </type>
+<pt>1/1</pt>
+<tablerow>1</tablerow>
+<text>Refugees comes into play with 3 stream counters.
+Remove a stream counter, T: Put a 1/1 red Refugees token on that battlefield under your control.
+At the beginning of each opponent’s upkeep, he or she must tap a land they control for each creature named Refugees you control. At the beginning of your upkeep, sacrifice Refugees unless you pay 1.</text>
 </card>
 
 <card>
@@ -1206,17 +1137,6 @@ Vanishing 3 (This permanent enters the battlefield with three time counters on i
 </card>
 
 <card>
-<name>Shanley Kane</name>
-<set>BSE2</set>
-<manacost>1RR</manacost>
-<type>Creature — Twitter Activist </type>
-<pt>2/1</pt>
-<tablerow>1</tablerow>
-<text>Double strike
-Shanley Kane must block if able.</text>
-</card>
-
-<card>
 <name>Spider Jerusalem</name>
 <set>BSE2</set>
 <manacost>2RR</manacost>
@@ -1243,18 +1163,8 @@ Shanley Kane must block if able.</text>
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Trigger Warning deals 2 damage to target creature or player that took damage this turn.</text>
-</card>
-
-<card>
-<name>True Believer</name>
-<set>BSE2</set>
-<manacost>R</manacost>
-<type>Creature</type>
-<pt>3/3</pt>
-<tablerow>1</tablerow>
-<text>Haste
-At the beginning of your end step, sacrifice True Believer unless you pay 1R.</text>
+<text>If target creature or player takes combat damage this turn, Trigger Warning deals 4 extra damage to that creature or player.
+Trigger Warning must be played prior to the combat phase of the current turn.</text>
 </card>
 
 <card>
@@ -1280,24 +1190,24 @@ Enchanted creature has shroud. Enchanted creature cannot get +1/+1 counters.</te
 </card>
 
 <card>
-<name>Bayesian Cultist</name>
-<set>BSE2</set>
-<manacost>2G</manacost>
-<type>Creature — Statistician </type>
-<pt>2/2</pt>
-<tablerow>1</tablerow>
-<text>T: Look at the top card of your library, and exile it.
-At the beginning of your opponent’s upkeep, you may pay 2. If you do, if that opponent plays a card of the same type as a card exiled by Cult of Bayes, you may play that card without paying its mana cost.</text>
-</card>
-
-<card>
 <name>Brogrammer</name>
 <set>BSE2</set>
 <manacost>1G</manacost>
-<type>Creature</type>
-<pt>3/1</pt>
+<type>Creature — Clueless Programmer </type>
+<pt>2/1</pt>
 <tablerow>1</tablerow>
 <text>Haste</text>
+</card>
+
+<card>
+<name>Cosma Shalizi</name>
+<set>BSE2</set>
+<manacost>1GG</manacost>
+<type>Creature — Economist </type>
+<pt>2/2</pt>
+<tablerow>1</tablerow>
+<text>Cosma Shalizi has lifelink as long as you control a white permanent.
+Cosma Shalizi has flying as long as you control a blue permanent.</text>
 </card>
 
 <card>
@@ -1319,6 +1229,16 @@ If Digital Sharecropper is untapped at the end of your turn, tap it.</text>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>At the beginning of your end step, untap target creature you control.</text>
+</card>
+
+<card>
+<name>Eric Schmidt</name>
+<set>BSE2</set>
+<manacost>4GG</manacost>
+<type>Creature — CEO </type>
+<pt>4/3</pt>
+<tablerow>1</tablerow>
+<text>T: Green creatures you control have trample until end of turn. White creatures you control have first strike until end of turn.</text>
 </card>
 
 <card>
@@ -1354,16 +1274,6 @@ When a creature enters the battlefield under your control, place a +1/+1 counter
 </card>
 
 <card>
-<name>Genderfuck</name>
-<set>BSE2</set>
-<manacost>G</manacost>
-<type>Sorcery</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Target creature swaps its power and toughness until end of turn.</text>
-</card>
-
-<card>
 <name>Georgism</name>
 <set>BSE2</set>
 <manacost>GG</manacost>
@@ -1374,13 +1284,23 @@ When a creature enters the battlefield under your control, place a +1/+1 counter
 </card>
 
 <card>
+<name>Gnon</name>
+<set>BSE2</set>
+<manacost>6GG</manacost>
+<type>Creature — Deity </type>
+<pt>6/6</pt>
+<tablerow>1</tablerow>
+<text>Deathtouch, reach, indestructible</text>
+</card>
+
+<card>
 <name>Helicopter Drop</name>
 <set>BSE2</set>
 <manacost>GG</manacost>
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Creatures you control of power 3 or less have T: Add G to your mana pool.</text>
+<text>Creatures you control of power 3 or less have “T: Add G to your mana pool.”</text>
 </card>
 
 <card>
@@ -1391,6 +1311,19 @@ When a creature enters the battlefield under your control, place a +1/+1 counter
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Add G to your mana pool equal to the converted mana cost of target permanent you control.</text>
+</card>
+
+<card>
+<name>Immigrants</name>
+<set>BSE2</set>
+<manacost>1G</manacost>
+<type>Creature — Stream </type>
+<pt>4/4</pt>
+<tablerow>1</tablerow>
+<text>Haste
+Immigrants comes into play with 3 -1/-1 counters on it.
+At the beginning of your upkeep, remove a -1/-1 counter from Immigrants.
+Opponents may discard a card. If they do so, put Immigrants on the top of its controller’s library.</text>
 </card>
 
 <card>
@@ -1407,7 +1340,7 @@ When a creature enters the battlefield under your control, place a +1/+1 counter
 <name>Jefferson</name>
 <set>BSE2</set>
 <manacost>3G</manacost>
-<type>Creature</type>
+<type>Creature — Politician </type>
 <pt>3/3</pt>
 <tablerow>1</tablerow>
 <text>On your upkeep, put a 1/1 green Farmer token onto the battlefield under your control.</text>
@@ -1417,7 +1350,7 @@ When a creature enters the battlefield under your control, place a +1/+1 counter
 <name>Lifestyle Designer</name>
 <set>BSE2</set>
 <manacost>3G</manacost>
-<type>Creature</type>
+<type>Creature — Entrepreneur </type>
 <pt>2/2</pt>
 <tablerow>1</tablerow>
 <text>When Lifestyle Designer comes into play, you may return any number of permanents you control to your hand. For each permanent removed in this way, put a +1/+1 counter on Lifestyle Designer.</text>
@@ -1427,10 +1360,11 @@ When a creature enters the battlefield under your control, place a +1/+1 counter
 <name>M-Pesa</name>
 <set>BSE2</set>
 <manacost>2G</manacost>
-<type>Sorcery</type>
+<type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Exile target creature you control. Put +1/+1 counters on a creature you control equal to the exiled creature’s toughness.</text>
+<text>GT: Put a counter on M-Pesa.
+Remove a counter from M-Pesa: Add 1 to your mana pool.</text>
 </card>
 
 <card>
@@ -1445,38 +1379,6 @@ Enchanted creature has G: Regenerate (The next time this would be destroyed this
 </card>
 
 <card>
-<name>Moloch</name>
-<set>BSE2</set>
-<manacost>4G</manacost>
-<type>Creature — Deity </type>
-<pt>5/5</pt>
-<tablerow>1</tablerow>
-<text>Sacrifice a creature: Put +1/+1 counters equal to that creature’s power on target creature.</text>
-</card>
-
-<card>
-<name>OWWAAB</name>
-<set>BSE2</set>
-<manacost>3G</manacost>
-<type>Creature — Deity </type>
-<pt>1/1</pt>
-<tablerow>1</tablerow>
-<text>Indestructible
-Landfall—Put a +1/+1 counter on target creature.
-Creature spells you control cannot be countered.</text>
-</card>
-
-<card>
-<name>Phatic Speech</name>
-<set>BSE2</set>
-<manacost>GG</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Green creatures you control get +1/+1 and gain trample until end of turn.</text>
-</card>
-
-<card>
 <name>Poor Door</name>
 <set>BSE2</set>
 <manacost>1GG</manacost>
@@ -1484,6 +1386,26 @@ Creature spells you control cannot be countered.</text>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Put target creature on top of its owner’s library.</text>
+</card>
+
+<card>
+<name>Precautionary Principle</name>
+<set>BSE2</set>
+<manacost>2G</manacost>
+<type>Enchantment</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>At beginning of your end step, if all your permanents are untapped, you may play a card of converted mana cost equal to or less than the number of permanents you control from your hand without paying its mana cost.</text>
+</card>
+
+<card>
+<name>Reparations</name>
+<set>BSE2</set>
+<manacost>3G</manacost>
+<type>Sorcery</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Put +1/+1 counters on a creature you control equal to the converted mana cost of a creature in your graveyard.</text>
 </card>
 
 <card>
@@ -1544,17 +1466,7 @@ At the beginning of your end step, you may exile target creature you control. If
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Target opponent must pay 1 for each attacking creature. Creatures for whom this cost was not paid have power 0 until end of turn.</text>
-</card>
-
-<card>
-<name>Guanxi</name>
-<set>BSE2</set>
-<manacost>WU</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Counter target spell. Its controller untaps land tapped to cast countered spell.</text>
+<text>Target opponent may pay 1 for each attacking creature. Creatures for whom this cost was not paid have power 0 until end of turn.</text>
 </card>
 
 <card>
@@ -1571,7 +1483,7 @@ Enchanted creature must defend if able.</text>
 <card>
 <name>Insight Porn</name>
 <set>BSE2</set>
-<manacost>WU</manacost>
+<manacost>1WU</manacost>
 <type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
@@ -1585,38 +1497,67 @@ Enchanted creature must defend if able.</text>
 <type>Creature — Deity </type>
 <pt>4/4</pt>
 <tablerow>1</tablerow>
-<text>1W:
-1U:</text>
+<text>When a permanent enters or leaves the battlefield under an opponent’s control, if that opponent does not pay 2, draw a card.</text>
 </card>
 
 <card>
-<name>Petard Hoist</name>
+<name>Mu</name>
 <set>BSE2</set>
 <manacost>2WU</manacost>
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Gain life equal to damage dealt by creatures your opponents control this turn.</text>
+<text>Counter target spell. If a spell is countered this way, place it on the bottom of its owner’s library.</text>
+</card>
+
+<card>
+<name>Nudge State</name>
+<set>BSE2</set>
+<manacost>2WU</manacost>
+<type>Enchantment</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Creatures your opponents control enter the battlefield tapped unless their controller pays 1.</text>
+</card>
+
+<card>
+<name>Selective Enforcement</name>
+<set>BSE2</set>
+<manacost>3WU</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Choose a color. Tap all creatures of that color. They do not untap on their owner’s next untap step.</text>
 </card>
 
 <card>
 <name>Tony Judt</name>
 <set>BSE2</set>
-<manacost>WU</manacost>
+<manacost>2WU</manacost>
 <type>Creature — Historian </type>
-<pt></pt>
+<pt>2/2</pt>
 <tablerow>1</tablerow>
-<text>When Tony Judt attacks, it gains +1/+1 for each untapped creature you control.</text>
+<text>When Tony Judt attacks, it gains +1/+1 until end of turn for each untapped creature you control.</text>
 </card>
 
 <card>
-<name>Disintermediate</name>
+<name>Baphomet</name>
 <set>BSE2</set>
-<manacost>1UB</manacost>
-<type>Instant</type>
+<manacost>4UB</manacost>
+<type>Creature — Deity </type>
+<pt>0/8</pt>
+<tablerow>1</tablerow>
+<text>If a creature dealt damage to you this turn, Baphomet deals damage equal to that creature’s power to that creature’s controller.</text>
+</card>
+
+<card>
+<name>Externality</name>
+<set>BSE2</set>
+<manacost>UB</manacost>
+<type>Enchantment</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text></text>
+<text>Once per turn, instead of tapping a permanent you control you may tap a permanent an opponent controls in its place.</text>
 </card>
 
 <card>
@@ -1630,9 +1571,29 @@ Enchanted creature must defend if able.</text>
 </card>
 
 <card>
+<name>Giorgio Agamben</name>
+<set>BSE2</set>
+<manacost>2UB</manacost>
+<type>Creature — Philosopher </type>
+<pt>4/3</pt>
+<tablerow>1</tablerow>
+<text>Retaliate (Untapped creatures with retaliate may deal damage equal to their power to target creature if you take combat damage this turn.)</text>
+</card>
+
+<card>
+<name>Guanxi</name>
+<set>BSE2</set>
+<manacost>UB</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Counter target spell. Its controller untaps land tapped to cast countered spell.</text>
+</card>
+
+<card>
 <name>Kobayashi Maru</name>
 <set>BSE2</set>
-<manacost>1UB</manacost>
+<manacost>3UB</manacost>
 <type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
@@ -1640,64 +1601,14 @@ Enchanted creature must defend if able.</text>
 </card>
 
 <card>
-<name>Lucifer</name>
-<set>BSE2</set>
-<manacost>3UB</manacost>
-<type>Creature — Immortal </type>
-<pt>3/3</pt>
-<tablerow>1</tablerow>
-<text>Flying, hexproof, swampwalk, islandwalk</text>
-</card>
-
-<card>
-<name>Nudge State</name>
-<set>BSE2</set>
-<manacost>UB</manacost>
-<type>Enchantment</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Creatures your opponents control enter the battlefield tapped unless their control pays 1.</text>
-</card>
-
-<card>
-<name>Patent Troll</name>
-<set>BSE2</set>
-<manacost>1UB</manacost>
-<type>Creature</type>
-<pt>1/2</pt>
-<tablerow>1</tablerow>
-<text>Discard a card: Prevent combat damage that would be dealt this turn.</text>
-</card>
-
-<card>
 <name>Ransom Internet</name>
 <set>BSE2</set>
-<manacost>1UB</manacost>
+<manacost>UB</manacost>
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Discard a card.
-Target player taps all lands he or she controls, or puts the top 10 cards from his or her library into his or her graveyard.</text>
-</card>
-
-<card>
-<name>Texas Sharpshooter</name>
-<set>BSE2</set>
-<manacost>2UB</manacost>
-<type>Creature — Fallacy </type>
-<pt>3/3</pt>
-<tablerow>1</tablerow>
-<text>When Texas Sharpshooter attacks, it receives -3/-0. At the end of the combat phase Texas Sharpshooter deals 3 damage to target creature or player.</text>
-</card>
-
-<card>
-<name>True Name of God</name>
-<set>BSE2</set>
-<manacost>2UB</manacost>
-<type>Sorcery</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Exile target non-land permanent.</text>
+Target player sacrifices two permanents or puts the top 10 cards from his or her library into his or her graveyard.</text>
 </card>
 
 <card>
@@ -1711,34 +1622,65 @@ Target player taps all lands he or she controls, or puts the top 10 cards from h
 </card>
 
 <card>
+<name>Attentat</name>
+<set>BSE2</set>
+<manacost>3BR</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Target creature you control gains deathtouch and fights target creature an opponent controls.</text>
+</card>
+
+<card>
+<name>Austerity</name>
+<set>BSE2</set>
+<manacost>4BR</manacost>
+<type>Enchantment — Aura </type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Enchant player
+On enchanted player’s upkeep, he or she must sacrifice a permanent or pay 1.</text>
+</card>
+
+<card>
+<name>Disintermediate</name>
+<set>BSE2</set>
+<manacost>1BR</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Sacrifice a creature you control. Deal damage equal to its power to target creature or player.</text>
+</card>
+
+<card>
+<name>Goat Rodeo</name>
+<set>BSE2</set>
+<manacost>2BR</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Creatures you control that die this turn deal damage equal to their power to target player.</text>
+</card>
+
+<card>
+<name>Medea</name>
+<set>BSE2</set>
+<manacost>3BR</manacost>
+<type>Creature — Deity </type>
+<pt>3/5</pt>
+<tablerow>1</tablerow>
+<text>Deathtouch
+T: Sacrifice a creature you control. Deal damage to target opponent equal to the converted mana cost of sacrificed creature.</text>
+</card>
+
+<card>
 <name>Catabolic Collapse</name>
 <set>BSE2</set>
-<manacost>BR</manacost>
+<manacost>RG</manacost>
 <type>Enchantment</type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>At the beginning of your upkeep, all players sacrifice a land.</text>
-</card>
-
-<card>
-<name>Erik Prince</name>
-<set>BSE2</set>
-<manacost>2BR</manacost>
-<type>Creature — CEO </type>
-<pt>3/3</pt>
-<tablerow>1</tablerow>
-<text>Reach
-Red and black creatures you control have 1: This creature gains vigilance until end of turn.</text>
-</card>
-
-<card>
-<name>Externality</name>
-<set>BSE2</set>
-<manacost>BR</manacost>
-<type>Enchantment</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Once per turn, instead of tapping a permanent you control you may tap a permanent an opponent controls in its place.</text>
 </card>
 
 <card>
@@ -1752,6 +1694,16 @@ Red and black creatures you control have 1: This creature gains vigilance until 
 </card>
 
 <card>
+<name>Genderfuck</name>
+<set>BSE2</set>
+<manacost>1RG</manacost>
+<type>Sorcery</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Creatures your opponents control swap their power and toughness until end of turn.</text>
+</card>
+
+<card>
 <name>Jack Ma</name>
 <set>BSE2</set>
 <manacost>3RG</manacost>
@@ -1759,6 +1711,17 @@ Red and black creatures you control have 1: This creature gains vigilance until 
 <pt>3/3</pt>
 <tablerow>1</tablerow>
 <text>Devour 3 (As this creature enters the battlefield, you may sacrifice any number of creatures. This creature enters the battlefield with three times that many +1/+1 counters on it.)</text>
+</card>
+
+<card>
+<name>Pan</name>
+<set>BSE2</set>
+<manacost>4RG</manacost>
+<type>Creature — Deity </type>
+<pt>5/5</pt>
+<tablerow>1</tablerow>
+<text>Creatures you control have haste.
+At the beginning of your end step, sacrifice target creature you control. Other creatures you control get +1/+1.</text>
 </card>
 
 <card>
@@ -1773,17 +1736,6 @@ When enchanted creature dies, destroy target artifact or enchantment.</text>
 </card>
 
 <card>
-<name>Refugees</name>
-<set>BSE2</set>
-<manacost>RG</manacost>
-<type>Creature</type>
-<pt>1/1</pt>
-<tablerow>1</tablerow>
-<text>2T: Put a token on that battlefield that is a copy of Refugees.
-At the beginning of each opponent’s upkeep, he or she must tap a land they control for each creature named Refugees you control.</text>
-</card>
-
-<card>
 <name>Status Churn</name>
 <set>BSE2</set>
 <manacost>RG</manacost>
@@ -1791,6 +1743,17 @@ At the beginning of each opponent’s upkeep, he or she must tap a land they con
 <pt></pt>
 <tablerow>1</tablerow>
 <text>On your upkeep, remove all +1/+1 counters on creatures you control and assign them in increasing amounts randomly to creatures you control.</text>
+</card>
+
+<card>
+<name>Bayesian Cultist</name>
+<set>BSE2</set>
+<manacost>1GW</manacost>
+<type>Creature — Statistician </type>
+<pt>2/2</pt>
+<tablerow>1</tablerow>
+<text>T: Look at the top card of your library, and exile it.
+At the beginning of your opponent’s upkeep, you may pay 2. If you do, if that opponent plays a card of the same type as a card exiled by Cult of Bayes, you may play that card without paying its mana cost.</text>
 </card>
 
 <card>
@@ -1804,43 +1767,33 @@ At the beginning of each opponent’s upkeep, he or she must tap a land they con
 </card>
 
 <card>
-<name>Eric Schmidt</name>
-<set>BSE2</set>
-<manacost>4GW</manacost>
-<type>Creature — CEO </type>
-<pt>4/3</pt>
-<tablerow>1</tablerow>
-<text>1T: Green creatures you control have trample until end of turn. White creatures you control have first strike until end of turn.</text>
-</card>
-
-<card>
 <name>Federalism</name>
 <set>BSE2</set>
 <manacost>GW</manacost>
 <type>Enchantment</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Creatures you control have 1T: Put a +1/+1 counter on target creature that does not share a color.</text>
-</card>
-
-<card>
-<name>Humanist</name>
-<set>BSE2</set>
-<manacost>3GW</manacost>
-<type>Creature</type>
-<pt>3/3</pt>
-<tablerow>1</tablerow>
-<text>Trample</text>
+<text>Creatures you control have 1T: Put a +1/+1 counter on target creature that does not share a color with this creature.</text>
 </card>
 
 <card>
 <name>Paperclip Maximizer</name>
 <set>BSE2</set>
 <manacost>3GW</manacost>
-<type>Creature — Robot </type>
+<type>Creature — Deity </type>
 <pt>1/1</pt>
 <tablerow>1</tablerow>
 <text>On your upkeep, all players sacrifice a permanent. Place a +1/+1 counter on Paperclip Maximizer for each permanent sacrificed this way.</text>
+</card>
+
+<card>
+<name>Phatic Speech</name>
+<set>BSE2</set>
+<manacost>1GW</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Green or white creatures gain +1/+1 when blocking nongreen and nonwhite creatures.</text>
 </card>
 
 <card>
@@ -1862,28 +1815,17 @@ If Anders Brevik takes combat damage, exile it with three time counters. On your
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Enchant land
-At the beginning of your upkeep, enchanted land’s controller rolls a twenty-sided dice. If he or she rolls a one, destroy enchanted land, tap all lands you control, and take 7 damage.</text>
+At the beginning of your upkeep, enchanted land’s controller rolls a twenty-sided dice. If he or she rolls a one, Normal Accidents destroys enchanted land and deals 7 damage to enchanted land’s owner. He or she must tap all lands he or she controls.</text>
 </card>
 
 <card>
-<name>Police</name>
-<set>BSE2</set>
-<manacost>4WB</manacost>
-<type>Creature</type>
-<pt>4/4</pt>
-<tablerow>1</tablerow>
-<text>First strike
-If Police deals damage to a player, exile target permanent that player controls.</text>
-</card>
-
-<card>
-<name>Powers & Principalities</name>
+<name>Powers and Principalities</name>
 <set>BSE2</set>
 <manacost>2WB</manacost>
-<type>Creature</type>
+<type>Creature — Bureaucracy </type>
 <pt>4/4</pt>
 <tablerow>1</tablerow>
-<text>Flying</text>
+<text>Wither (This deals damage to creatures in the form of -1/-1 counters.)</text>
 </card>
 
 <card>
@@ -1897,6 +1839,26 @@ If Police deals damage to a player, exile target permanent that player controls.
 </card>
 
 <card>
+<name>Solutionism</name>
+<set>BSE2</set>
+<manacost>4WB</manacost>
+<type>Sorcery</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Players with more than 15 life lose 5 life; players with less than 15 life gain 5 life.</text>
+</card>
+
+<card>
+<name>Status Panic</name>
+<set>BSE2</set>
+<manacost>1WB</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Until end of turn, creatures you control get +2/-1 when blocking creatures that do not share a color.</text>
+</card>
+
+<card>
 <name>Bad Data</name>
 <set>BSE2</set>
 <manacost>1UR</manacost>
@@ -1907,33 +1869,47 @@ If Police deals damage to a player, exile target permanent that player controls.
 </card>
 
 <card>
-<name>Methodological Anarchy</name>
+<name>Dead Cow</name>
 <set>BSE2</set>
-<manacost>1UR</manacost>
+<manacost>UR</manacost>
+<type>Artifact Creature</type>
+<pt>2/3</pt>
+<tablerow>1</tablerow>
+<text>Flash
+When Dead Cow becomes the target of a spell or ability, sacrifice it.</text>
+</card>
+
+<card>
+<name>Eris</name>
+<set>BSE2</set>
+<manacost>3UR</manacost>
+<type>Creature — Deity </type>
+<pt>3/3</pt>
+<tablerow>1</tablerow>
+<text>Indestructible
+2T: Bid 5 for target permanent (All players put their hands aside and draw five cards. Each player selects a nonland card from those drawn, and puts that card face down. All players then reveal their bids, and place cards from their library into their graveyard equal to the converted mana cost of his or her revealed card. The highest revealed converted mana cost wins the bid. In the event of a tie, no winner is declared. All players shuffle cards drawn for the bid back into their libraries.)</text>
+</card>
+
+<card>
+<name>Eventually Consistent</name>
+<set>BSE2</set>
+<manacost>2UR</manacost>
 <type>Enchantment</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Each player may choose to name a card type at the beginning of their draw step. If they do, he or she reveals the card as they draw it. If the card type matches the type they chose, if it is a land they may put it on the battlefield; if it is a nonland they may play it without paying its mana cost. If the card is not the type that was named, put that card on the bottom of that player’s library, and then that player draws a card.</text>
+<text>Enchant player
+Enchanted player does not draw a card during his or her draw step. At the beginning of enchanted player’s end step, he or she draws a card.</text>
 </card>
 
 <card>
-<name>Mu</name>
+<name>Methodological Anarchy</name>
 <set>BSE2</set>
-<manacost>2UR</manacost>
-<type>Instant</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Counter target spell. If a spell is countered this way, place it on the bottom of its owner’s library.</text>
-</card>
-
-<card>
-<name>Solutionism</name>
-<set>BSE2</set>
-<manacost>4UR</manacost>
+<manacost>1UR</manacost>
 <type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Players with more than 15 life lose 5 life; players with less than 15 life gain 5 life.</text>
+<text>Search your library for up to three cards. Shuffle your library, and shuffle the cards you searched for with the top five cards, and place them on top of your library.
+Draw 2 cards.</text>
 </card>
 
 <card>
@@ -1943,7 +1919,7 @@ If Police deals damage to a player, exile target permanent that player controls.
 <type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>You may put a creature card of converted mana cost 3 or less on the battlefield.</text>
+<text>You may put a creature card of converted mana cost 3 or less on the battlefield without paying its mana cost.</text>
 </card>
 
 <card>
@@ -1954,13 +1930,13 @@ If Police deals damage to a player, exile target permanent that player controls.
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Enchant player.
-When an opponent plays a sorcery, Zemblanity deals 2 damage to target creature enchanted player controls.</text>
+When an opponent plays a sorcery, Zemblanity deals 2 damage to enchanted player.</text>
 </card>
 
 <card>
 <name>Carrying Capacity</name>
 <set>BSE2</set>
-<manacost>BG</manacost>
+<manacost>2BG</manacost>
 <type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
@@ -1972,9 +1948,9 @@ When an opponent plays a sorcery, Zemblanity deals 2 damage to target creature e
 <set>BSE2</set>
 <manacost>2BG</manacost>
 <type>Creature — Shaman </type>
-<pt>3/3</pt>
+<pt>2/2</pt>
 <tablerow>1</tablerow>
-<text>Reach, deathtouch</text>
+<text>Discard a card. Destroy target creature.</text>
 </card>
 
 <card>
@@ -1985,17 +1961,7 @@ When an opponent plays a sorcery, Zemblanity deals 2 damage to target creature e
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Cascade (When you cast this spell, exile the top card of your library until you exile a nonland card that costs less. You may cast that card without paying its mana cost. Put the exiled cards on the bottom of your library at random.) 
-Scry 3 (To scry 3, look at the top three cards of your library. Put any number of them on the bottom of your library in any order and the rest on top in any order.)</text>
-</card>
-
-<card>
-<name>Gnon</name>
-<set>BSE2</set>
-<manacost>5BG</manacost>
-<type>Creature — Deity </type>
-<pt>6/6</pt>
-<tablerow>1</tablerow>
-<text>Deathtouch, reach, indestructible</text>
+Put three -1/-1 counters on target creature.</text>
 </card>
 
 <card>
@@ -2010,9 +1976,19 @@ If enchanted player draws a card with converted mana cost 5, he or she gains 5 l
 </card>
 
 <card>
+<name>Moloch</name>
+<set>BSE2</set>
+<manacost>3BG</manacost>
+<type>Creature — Deity </type>
+<pt>5/5</pt>
+<tablerow>1</tablerow>
+<text>Sacrifice a creature, T: Put +1/+1 counters equal to that creature’s power on target creature.</text>
+</card>
+
+<card>
 <name>Moral Arbitrage</name>
 <set>BSE2</set>
-<manacost>BG</manacost>
+<manacost>1BG</manacost>
 <type>Enchantment</type>
 <pt></pt>
 <tablerow>1</tablerow>
@@ -2041,18 +2017,17 @@ If enchanted player draws a card with converted mana cost 5, he or she gains 5 l
 </card>
 
 <card>
-<name>Austerity</name>
+<name>Tenth Lament</name>
 <set>BSE2</set>
-<manacost>4RW</manacost>
-<type>Enchantment — Aura </type>
+<manacost>1BG</manacost>
+<type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Enchant player
-On enchanted player’s upkeep, for each permanent, he or she must pay its converted mana cost or sacrifice that permanent.</text>
+<text>Sacrifice target permanent you control. Destroy target artifact.</text>
 </card>
 
 <card>
-<name>Conway's Law</name>
+<name>Conway’s Law</name>
 <set>BSE2</set>
 <manacost>2RW</manacost>
 <type>Enchantment</type>
@@ -2073,13 +2048,23 @@ Creatures you control of power 4 or greater have T: Target creature gains +1/+1 
 </card>
 
 <card>
-<name>Monopath</name>
+<name>Mansplain</name>
 <set>BSE2</set>
-<manacost>RW</manacost>
-<type>Creature — Professional </type>
-<pt>1/2</pt>
+<manacost>1RW</manacost>
+<type>Instant</type>
+<pt></pt>
 <tablerow>1</tablerow>
-<text>Monopath attacks each turn if able. Monopath gains indestructible if attacking alone.</text>
+<text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.</text>
+</card>
+
+<card>
+<name>Petard Hoist</name>
+<set>BSE2</set>
+<manacost>2RW</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Gain life equal to damage dealt by creatures your opponents control this turn.</text>
 </card>
 
 <card>
@@ -2103,6 +2088,28 @@ Creatures you control of power 4 or greater have T: Target creature gains +1/+1 
 </card>
 
 <card>
+<name>True Name of God</name>
+<set>BSE2</set>
+<manacost>2RW</manacost>
+<type>Enchantment</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Enchant creature
+Enchanted creature’s power is 1 and cannot block.</text>
+</card>
+
+<card>
+<name>The Virtual God</name>
+<set>BSE2</set>
+<manacost>3RW</manacost>
+<type>Creature — Deity </type>
+<pt>7/5</pt>
+<tablerow>1</tablerow>
+<text>Flash
+When The Virtual God enters the battlefield, remove all creatures from all graveyards and shuffle them back into their owners’ libraries.</text>
+</card>
+
+<card>
 <name>Angelina Jolie</name>
 <set>BSE2</set>
 <manacost>2GU</manacost>
@@ -2113,13 +2120,13 @@ Creatures you control of power 4 or greater have T: Target creature gains +1/+1 
 </card>
 
 <card>
-<name>Cosma Shalizi</name>
+<name>Cyborgism</name>
 <set>BSE2</set>
-<manacost>GU</manacost>
-<type>Creature</type>
-<pt>2/2</pt>
+<manacost>2GU</manacost>
+<type>Enchantment</type>
+<pt></pt>
 <tablerow>1</tablerow>
-<text>Lifelink</text>
+<text>Creatures you control with equipment get +3/+3.</text>
 </card>
 
 <card>
@@ -2133,13 +2140,14 @@ Creatures you control of power 4 or greater have T: Target creature gains +1/+1 
 </card>
 
 <card>
-<name>Giorgio Agamben</name>
+<name>Glycon</name>
 <set>BSE2</set>
 <manacost>2GU</manacost>
-<type>Creature — Philosopher </type>
-<pt>4/3</pt>
+<type>Creature — Deity </type>
+<pt>5/5</pt>
 <tablerow>1</tablerow>
-<text>Retaliate (Untapped creatures with retaliate may deal damage equal to their power to target creature if you take combat damage this turn.)</text>
+<text>If combat damage is dealt to Glycon, sacrifice it.
+Discard a card: Glycon becomes unblockable until end of turn.</text>
 </card>
 
 <card>
@@ -2157,30 +2165,30 @@ Creatures you control of power 4 or greater have T: Target creature gains +1/+1 
 <set>BSE2</set>
 <manacost>2GU</manacost>
 <type>Creature — Economist </type>
-<pt></pt>
+<pt>3/3</pt>
 <tablerow>1</tablerow>
-<text>1GT: Regenerate target creature (The next time this would be destroyed this turn, it isn’t. Instead tap it.)
+<text>1GT: Regenerate target creature (The next time this creature would be destroyed this turn, it isn’t. Instead tap it, remove all damage from it, and remove it from combat.)
 Cycling 2 (2, Discard this card: Draw a card.)</text>
 </card>
 
 <card>
 <name>System D</name>
 <set>BSE2</set>
-<manacost>3GU</manacost>
-<type>Enchantment</type>
+<manacost>1GU</manacost>
+<type>Instant</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>UGT: Search your library for a nonland card and reveal it. Put it in your hand, and return a card from your hand to your library. Shuffle your library.</text>
+<text>Search your library for a nonland card and reveal it. Put it in your hand, and return a card from your hand to your library. Shuffle your library.</text>
 </card>
 
 <card>
-<name>Tenth Lament</name>
+<name>Melek Taus</name>
 <set>BSE2</set>
-<manacost>2GU</manacost>
-<type>Sorcery</type>
-<pt></pt>
+<manacost>2WUBRG</manacost>
+<type>Creature — Deity </type>
+<pt>10/10</pt>
 <tablerow>1</tablerow>
-<text>Return target artifact to the top of its owner’s library. Untap a permanent you control.</text>
+<text>Flying, haste</text>
 </card>
 
 <card>
@@ -2200,7 +2208,7 @@ Cycling 2 (2, Discard this card: Draw a card.)</text>
 <type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>T: Tap target land.</text>
+<text>2T: Tap target land.</text>
 </card>
 
 <card>
@@ -2283,17 +2291,18 @@ Equipped creature gains retaliate (Untapped creatures with retaliate may deal da
 <type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>2T: Regenerate target creature (The next time this would be destroyed this turn, it isn’t. Instead tap it.)</text>
+<text>You have no maximum hand size.
+At the beginning of your end step, sacrifice Inukshuk unless you pay 1.</text>
 </card>
 
 <card>
 <name>Iron Triangle</name>
 <set>BSE2</set>
-<manacost>4</manacost>
+<manacost>3</manacost>
 <type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>1T: Tap target permanent. Draw a card.</text>
+<text>T: Target players puts the top card of his or her library into his or her graveyard.</text>
 </card>
 
 <card>
@@ -2313,7 +2322,7 @@ Equipped creature gains retaliate (Untapped creatures with retaliate may deal da
 <type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Creatures you control gain protection from the color of your choice.</text>
+<text>2T: Creatures you control gain protection from the color of your choice until end of turn.</text>
 </card>
 
 <card>
@@ -2329,7 +2338,7 @@ Equipped creature gains retaliate (Untapped creatures with retaliate may deal da
 <card>
 <name>Placebo</name>
 <set>BSE2</set>
-<manacost>4</manacost>
+<manacost>3</manacost>
 <type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
@@ -2355,7 +2364,8 @@ T: Artifacts cost 2 less to play this turn.</text>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Equip 2
-Equipped creature has vigilance, haste</text>
+Equipped creature has vigilance.
+If equipped creature would be destroyed, instead destroy Self-Driving Car.</text>
 </card>
 
 <card>
@@ -2376,8 +2386,8 @@ Equipped creature has flying.</text>
 <type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>T: Put a counter on Ship of Theseus
-T: Remove X counters from Ship of Theseus. Put a token that is a copy of target non-land permanent you control with converted mana cost X onto the battlefield.</text>
+<text>T: Put a plank counter on Ship of Theseus
+T: Remove X plank counters from Ship of Theseus. Sacrifice Ship of Theseus. Put a token that is a copy of target nonland permanent with converted mana cost X onto the battlefield under your control.</text>
 </card>
 
 <card>
@@ -2387,7 +2397,7 @@ T: Remove X counters from Ship of Theseus. Put a token that is a copy of target 
 <type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>2T: You may play a sorcery at instant speed.</text>
+<text>2T: You may play sorceries at instant speed this turn.</text>
 </card>
 
 <card>
@@ -2398,15 +2408,15 @@ T: Remove X counters from Ship of Theseus. Put a token that is a copy of target 
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Equip 2
-Equipped creature has flying.</text>
+Equipped creature gets +2/+2 and has flying.</text>
 </card>
 
 <card>
 <name>Spime</name>
 <set>BSE2</set>
 <manacost>3</manacost>
-<type>Artifact Creature</type>
-<pt>2/2</pt>
+<type>Artifact </type>
+<pt></pt>
 <tablerow>1</tablerow>
 <text>Q: Scry 1 (To scry 1, look at the top card of your library, then you may put that card on the bottom of your library.)</text>
 </card>
@@ -2418,7 +2428,8 @@ Equipped creature has flying.</text>
 <type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>T: Search your library for a basic land and put it onto the battlefield under your control, tapped. Shuffle your library.</text>
+<text>Affinity for artifacts (This spell costs 1 less to cast for each artifact you control.)
+You have no maximum hand size.</text>
 </card>
 
 <card>
@@ -2450,13 +2461,13 @@ If an artifact you control would be placed in your graveyard, instead return it 
 <type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>2T: Regenerate target creature (The next time this would be destroyed this turn, it isn’t. Instead tap it.)</text>
+<text>2T: Tap target artifact.</text>
 </card>
 
 <card>
 <name>Vat-grown Meat</name>
 <set>BSE2</set>
-<manacost>2</manacost>
+<manacost>3</manacost>
 <type>Artifact</type>
 <pt></pt>
 <tablerow>1</tablerow>
@@ -2467,7 +2478,7 @@ If an artifact you control would be placed in your graveyard, instead return it 
 <name>CERN</name>
 <set>BSE2</set>
 <manacost></manacost>
-<type>Land</type>
+<type>Land — Plains Island </type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>CERN enters the battlefield tapped. When CERN enters the battlefield, return a land you control to its owner’s hand.
@@ -2478,7 +2489,7 @@ T: Add WU to your mana pool.</text>
 <name>Eyjafjallajökull</name>
 <set>BSE2</set>
 <manacost></manacost>
-<type>Land</type>
+<type>Land — Swamp Mountain </type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Eyjafjallajökull enters the battlefield tapped. When Eyjafjallajökull enters the battlefield, return a land you control to its owner’s hand.
@@ -2489,7 +2500,7 @@ T: Add BR to your mana pool.</text>
 <name>Great Pacific Garbage Patch</name>
 <set>BSE2</set>
 <manacost></manacost>
-<type>Land</type>
+<type>Land — Swamp Forest </type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Great Pacific Garbage Patch enters the battlefield tapped. When Great Pacific Garbage Patch enters the battlefield, return a land you control to its owner’s hand.
@@ -2500,7 +2511,7 @@ T: Add BG to your mana pool.</text>
 <name>Guantánamo</name>
 <set>BSE2</set>
 <manacost></manacost>
-<type>Land</type>
+<type>Land — Plains Swamp </type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Guantánamo enters the battlefield tapped. When Guantánamo enters the battlefield, return a land you control to its owner’s hand.
@@ -2515,7 +2526,7 @@ T: Add WB to your mana pool.</text>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>T: Add 1 to your mana pool.
-T: </text>
+4 T: Target creature you control is unblockable this turn.</text>
 </card>
 
 <card>
@@ -2533,7 +2544,7 @@ At the beginning of your upkeep, if Heterotopia is tapped, return it to your han
 <name>Kiribati</name>
 <set>BSE2</set>
 <manacost></manacost>
-<type>Land</type>
+<type>Land — Island Swamp </type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Kiribati enters the battlefield tapped. When Kiribati enters the battlefield, return a land you control to its owner’s hand.
@@ -2555,7 +2566,7 @@ T: Add UB to your mana pool.</text>
 <name>Kra Isthmus Canal</name>
 <set>BSE2</set>
 <manacost></manacost>
-<type>Land</type>
+<type>Land — Forest Plains </type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Kra Isthmus Canal enters the battlefield tapped. When Kra Isthmus Canal enters the battlefield, return a land you control to its owner’s hand.
@@ -2566,7 +2577,7 @@ T: Add GW to your mana pool.</text>
 <name>Mars Colony</name>
 <set>BSE2</set>
 <manacost></manacost>
-<type>Land</type>
+<type>Land — Island Mountain </type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Mars Colony enters the battlefield tapped. When Mars Colony enters the battlefield, return a land you control to its owner’s hand.
@@ -2577,7 +2588,7 @@ T: Add UR to your mana pool.</text>
 <name>Ogallala Aquifer</name>
 <set>BSE2</set>
 <manacost></manacost>
-<type>Land</type>
+<type>Land — Mountain Forest </type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Ogallala Aquifer enters the battlefield tapped. When Ogallala Aquifer enters the battlefield, return a land you control to its owner’s hand.
@@ -2588,7 +2599,7 @@ T: Add RG to your mana pool.</text>
 <name>Tahrir Square</name>
 <set>BSE2</set>
 <manacost></manacost>
-<type>Land</type>
+<type>Land — Mountain Plains </type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Tahrir Square enters the battlefield tapped. When Tahrir Square enters the battlefield, return a land you control to its owner’s hand.
@@ -2599,7 +2610,7 @@ T: Add RW to your mana pool.</text>
 <name>Three Gorges Dam</name>
 <set>BSE2</set>
 <manacost></manacost>
-<type>Land</type>
+<type>Land — Forest Island </type>
 <pt></pt>
 <tablerow>1</tablerow>
 <text>Three Gorges Dam enters the battlefield tapped. When Three Gorges Dam enters the battlefield, return a land you control to its owner’s hand.
