@@ -1263,6 +1263,16 @@ If Escher is the target of a spell, make a copy of that spell and choose a new t
 </card>
 
 <card>
+<name>FOMO</name>
+<set>BSE2</set>
+<manacost>GG</manacost>
+<type>Instant</type>
+<pt></pt>
+<tablerow>1</tablerow>
+<text>Creatures controlled by target opponent must block if able.</text>
+</card>
+
+<card>
 <name>Gaia</name>
 <set>BSE2</set>
 <manacost>5G</manacost>
@@ -1271,16 +1281,6 @@ If Escher is the target of a spell, make a copy of that spell and choose a new t
 <tablerow>1</tablerow>
 <text>Creature spells cost G less to cast.
 When a creature enters the battlefield under your control, place a +1/+1 counter on it.</text>
-</card>
-
-<card>
-<name>Georgism</name>
-<set>BSE2</set>
-<manacost>GG</manacost>
-<type>Sorcery</type>
-<pt></pt>
-<tablerow>1</tablerow>
-<text>Nonstandard lands you control produce 1G when tapped this turn.</text>
 </card>
 
 <card>

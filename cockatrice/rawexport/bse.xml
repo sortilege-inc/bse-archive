@@ -690,10 +690,10 @@ You have a second combat phase after your second main phase this turn.</text>
 <name>Cargo Cult</name>
 <set>BSE</set>
 <manacost>1B</manacost>
-<type>Enchantment</type>
+<type>Sorcery</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>Cards that would trigger at the beginning of an opponent’s upkeep, don’t.</text>
+<text>All players discard a card.</text>
 </card>
 
 <card>
@@ -1271,8 +1271,9 @@ Antifragile Hydra enters the battlefield with X +1/+1 counters on it. If damage 
 <type>Enchantment</type>
 <pt></pt>
 <tablerow>1</tablerow>
-<text>When a creature comes into play under your control, put a +1/+1 counter on it.
-At the beginning of your upkeep, pay X, where X is equal to the number of creatures under your control with +1/+1 counters, or sacrifice Basic Income.</text>
+<text>When Basic Income enters the battlefield, put a +1/+1 counter on all creatures you control. 
+When a creature comes into play under your control, put a +1/+1 counter on it.
+At the beginning of your end step, if you control more creatures than land, sacrifice Basic Income.</text>
 </card>
 
 <card>
