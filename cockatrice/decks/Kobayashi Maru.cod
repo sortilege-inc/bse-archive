@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Kobayashi Maru</deckname>
+    <comments>Mill + Graveyard Matters</comments>
+    <zone name="main">
+        <card number="5" price="0" name="Swamp"/>
+        <card number="5" price="0" name="Island"/>
+        <card number="4" price="0" name="Potemkin Village"/>
+        <card number="4" price="0" name="Kiribati"/>
+        <card number="4" price="0" name="Panopticon"/>
+        <card number="2" price="0" name="@vgr"/>
+        <card number="4" price="0" name="Amy Wong"/>
+        <card number="2" price="0" name="Azathoth"/>
+        <card number="2" price="0" name="Eigenhitler"/>
+        <card number="4" price="0" name="Malcolm Gladwell"/>
+        <card number="2" price="0" name="Sergey Alexeyevich Lebedev"/>
+        <card number="1" price="0" name="Keynes’s Jetpack"/>
+        <card number="3" price="0" name="Infinite Game"/>
+        <card number="2" price="0" name="Rent-Controlled Apartment"/>
+        <card number="2" price="0" name="Cybersyn"/>
+        <card number="2" price="0" name="Bullshit"/>
+        <card number="2" price="0" name="Future Foreclosed"/>
+        <card number="4" price="0" name="International Art English"/>
+        <card number="4" price="0" name="Kobayashi Maru"/>
+        <card number="2" price="0" name="Ransom Internet"/>
+    </zone>
+    <zone name="side">
+        <card number="2" price="0" name="Exterminism"/>
+        <card number="2" price="0" name="Ransom Internet"/>
+        <card number="2" price="0" name="Little Bobby Tables"/>
+        <card number="4" price="0" name="Hanlon Dodge"/>
+        <card number="2" price="0" name="Interesting Times"/>
+        <card number="1" price="0" name="Filter Bubble"/>
+        <card number="1" price="0" name="Infinite Game"/>
+        <card number="1" price="0" name="Privatization of the Commons"/>
+    </zone>
+</cockatrice_deck>
